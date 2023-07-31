@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk';
+}
+
+body{
+    background: #081D29;
+}
+
+.entete{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.left{
+    margin-left: 5%;
+    margin-top: 8px;
+}
+
+.rights{
+    margin-right: 5%;
+    padding: 5px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 70px;
+}
+.rights img{
+    width: 45%;
+}
+
+#footer{
+    margin-top: 45%;
+    background: blue;
+    height: 60vh;
+}
+
+#icons{
+    height: 35vh;
+    background: url('Logo/foot.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 12%;
+    
+}
+
+#icon{
+    height: 35vh;
+    background: url('Logo/foot.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.icon{
+    position: absolute;
+    left: 45%;
+    margin-top: 110px;
+}
+
+
+.pcopy{
+    position: absolute;
+    left: 45%;
+    margin-top: 150px;
+}
+
+.icon img{
+    width: 5%;
+}
+
+/*Espace propriétaire*/
+
+.espace{
+    margin-top: 20px;
+    width: 97%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lf{
+    margin-top: 25px;
+    width: 6%;
+    height: 60vh;
+    background: #0d2f42;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.rg{
+    width: 80%;
+    background: #0d2f42;
+    height: 72vh;
+    border-radius: 25px;
+}
+.lf ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.lf img{
+    width: 35%;
+    margin-top: 10px;
+}
+
+.web{
+    position: absolute;
+    display: flex;
+    width: 200px;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web .lis:nth-of-type(1){
+    background: #081D29;
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+.web p{
+    padding-left: 15px;
+}
+
+
+.web1{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 4%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web1 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+.web p{
+    padding-left: 15px;
+}
+
+/******************/
+
+.web2{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 8%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 15%;
+    color: white;
+}
+.web2 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+/*******/
+
+.web3{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 12%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web3 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+
+/*********/
+
+.web4{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 16%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web4 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web4 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+/**/
+
+.web5{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 20%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web5 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+/**********/
+
+.web6{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    margin-top: 24%;
+}
+.tes{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 8%;
+    color: white;
+}
+.web6 .lis:nth-of-type(1){
+    width: 90px;
+    height: 58px;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+
+/*---------------------Annonce--------------*/
+
+.rg p{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 24px;
+    color: white;
+}
+.rg .annonce{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    background: #081D29;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 60%;
+    border-radius: 25px;
+}
+
+.prof .lfs{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.annonce .prof img{
+    width: 12%;
+}
+
+.prof{
+    display: flex;
+}
+
+.prof .webs{
+    margin-top: -15px;
+}
+
+.lr{
+    display: flex;
+}
+
+.boribory{
+    margin-right: 20px;
+}
+
+.lr .points{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 30px;
+}
